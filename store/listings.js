@@ -24,6 +24,18 @@ const listings = [
     },
   },
   {
+    id: 7,
+    title: "Have Mom's Spaghetti",
+    images: [{ fileName: "spag" }],
+    categoryId: 1,
+    minutes: 20,
+    userId: 2,
+    location: {
+      latitude: 37.78825,
+      longitude: -122.4324,
+    },
+  },
+  {
     id: 1,
     title: "Dinner with Friends",
     description:
