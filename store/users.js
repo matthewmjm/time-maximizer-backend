@@ -4,6 +4,7 @@ const users = [
     name: "Matthew Malecki",
     email: "mmalecki4@gmail.com",
     password: "password",
+    // image: '../public/assets/matthewmjm.jpg'
   },
   {
     id: 2,

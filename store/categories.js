@@ -1,67 +1,74 @@
 const categories = [
   {
     id: 1,
-    name: "Furniture",
-    icon: "floor-lamp",
+    name: "Home",
+    icon: "home",
     backgroundColor: "#fc5c65",
     color: "white"
   },
   {
     id: 2,
-    name: "Cars",
+    name: "Car",
     icon: "car",
     backgroundColor: "#fd9644",
     color: "white"
   },
   {
     id: 3,
-    name: "Cameras",
-    icon: "camera",
+    name: "Pets",
+    icon: "dog-service",
     backgroundColor: "#fed330",
     color: "white"
   },
   {
     id: 4,
-    name: "Games",
-    icon: "cards",
+    name: "Dining",
+    icon: "food",
     backgroundColor: "#26de81",
     color: "white"
   },
   {
     id: 5,
-    name: "Clothing",
-    icon: "shoe-heel",
+    name: "Friends",
+    icon: "shoe-baby-face-outline",
     backgroundColor: "#2bcbba",
     color: "white"
   },
   {
     id: 6,
-    name: "Sports",
-    icon: "basketball",
+    name: "Work",
+    icon: "briefcase-outline",
     backgroundColor: "#45aaf2",
     color: "white"
   },
   {
     id: 7,
-    name: "Movies & Music",
-    icon: "headphones",
+    name: "Banking",
+    icon: "bank-outline",
     backgroundColor: "#4b7bec",
     color: "white"
   },
   {
     id: 8,
-    name: "Books",
-    icon: "book-open-variant",
+    name: "Shopping",
+    icon: "cart-outline",
     backgroundColor: "#a55eea",
     color: "white"
   },
   {
     id: 9,
-    name: "Other",
-    icon: "application",
+    name: "Workout",
+    icon: "dumbbell",
     backgroundColor: "#778ca3",
     color: "white"
-  }
+  },
+  // {
+  //   id: 10,
+  //   name: "Other",
+  //   icon: "application",
+  //   backgroundColor: "#778ca3",
+  //   color: "white"
+  // }
 ];
 
 const getCategories = () => categories;
