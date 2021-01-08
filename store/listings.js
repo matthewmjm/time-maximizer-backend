@@ -1,9 +1,9 @@
 const listings = [
   {
     id: 201,
-    title: "Red jacket",
-    images: [{ fileName: "jacket1" }],
-    minutes: 100,
+    title: "Grocery Shopping",
+    images: [{ fileName: "grocery" }],
+    minutes: 90,
     categoryId: 5,
     userId: 1,
     location: {
@@ -13,10 +13,10 @@ const listings = [
   },
   {
     id: 3,
-    title: "Gray couch in a great condition",
-    images: [{ fileName: "couch2" }],
+    title: "Workout at Gym",
+    images: [{ fileName: "gym" }],
     categoryId: 1,
-    minutes: 1200,
+    minutes: 120,
     userId: 2,
     location: {
       latitude: 37.78825,
@@ -25,15 +25,15 @@ const listings = [
   },
   {
     id: 1,
-    title: "Room & Board couch (great condition) - delivery included",
+    title: "Dinner with Friends",
     description:
-      "I'm selling my furniture at a discount minutes. Pick up at Venice. DM me asap.",
+      "Location TBD.",
     images: [
-      { fileName: "couch1" },
-      { fileName: "couch2" },
-      { fileName: "couch3" },
+      { fileName: "restaurant" },
+      { fileName: "restaurant" },
+      { fileName: "restaurant" },
     ],
-    minutes: 1000,
+    minutes: 120,
     categoryId: 1,
     userId: 1,
     location: {
@@ -43,10 +43,10 @@ const listings = [
   },
   {
     id: 2,
-    title: "Designer wear shoes",
-    images: [{ fileName: "shoes1" }],
+    title: "Deposit check at the bank/ATM",
+    images: [{ fileName: "bank" }],
     categoryId: 5,
-    minutes: 100,
+    minutes: 45,
     userId: 2,
     location: {
       latitude: 37.78825,
@@ -55,9 +55,9 @@ const listings = [
   },
   {
     id: 102,
-    title: "Canon 400D (Great Condition)",
-    images: [{ fileName: "camera1" }],
-    minutes: 300,
+    title: "Take in car for oil change",
+    images: [{ fileName: "oilchange" }],
+    minutes: 90,
     categoryId: 3,
     userId: 1,
     location: {
@@ -67,9 +67,9 @@ const listings = [
   },
   {
     id: 101,
-    title: "Nikon D850 for sale",
-    images: [{ fileName: "camera2" }],
-    minutes: 350,
+    title: "Training for Work",
+    images: [{ fileName: "training" }],
+    minutes: 120,
     categoryId: 3,
     userId: 1,
     location: {
@@ -79,11 +79,11 @@ const listings = [
   },
   {
     id: 4,
-    title: "Sectional couch - Delivery available",
-    description: "No rips no stains no odors",
-    images: [{ fileName: "couch3" }],
+    title: "Clean-out the Gutters",
+    description: "Borrow next door neighbor's ladder",
+    images: [{ fileName: "gutters" }],
     categoryId: 1,
-    minutes: 950,
+    minutes: 30,
     userId: 2,
     location: {
       latitude: 37.78825,
@@ -92,10 +92,10 @@ const listings = [
   },
   {
     id: 6,
-    title: "Brown leather shoes",
-    images: [{ fileName: "shoes2" }],
+    title: "Gather and take-out the Garbage",
+    images: [{ fileName: "garbage" }],
     categoryId: 5,
-    minutes: 50,
+    minutes: 30,
     userId: 2,
     location: {
       latitude: 37.78825,
