@@ -1,14 +1,14 @@
 const users = [
   {
     id: 1,
-    name: "Matthew",
+    name: "Matthew Malecki",
     email: "mmalecki4@gmail.com",
     password: "password",
   },
   {
     id: 2,
-    name: "Cody",
-    email: "cody@email.com",
+    name: "Cody Malecki",
+    email: "cody@chihuahua.com",
     password: "password",
   },
 ];
