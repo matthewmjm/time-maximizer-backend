@@ -1,0 +1,5 @@
+{
+  // "assetsBaseUrl": "http://73.203.54.26:4000/assets/",
+  "assetsBaseUrl": "http://localhost:4000/assets/",
+  "port": 4000
+}
