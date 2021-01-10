@@ -104,7 +104,7 @@ const listings = [
   },
   {
     id: 6,
-    title: "Gather and take-out the Garbage",
+    title: "Gather-up and take-out the Garbage",
     images: [{ fileName: "garbage" }],
     categoryId: 5,
     minutes: 30,
